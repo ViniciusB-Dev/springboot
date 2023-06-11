@@ -10,7 +10,7 @@ import java.util.UUID;
 @Table(name = "TB_PRODUCTS")
 public class ProductModel implements Serializable {
     private static final long serialVersionUID = 1L;
-//sdss
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private UUID idProduct;
